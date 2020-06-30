@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tanaman">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/daun"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Sirih_caratanam"></activity>
+        <activity android:name=".Sirih_olahan" />
+        <activity android:name=".Serai_caratanam" />
+        <activity android:name=".Serai_olahan" />
+        <activity android:name=".Pandan_caratanam" />
+        <activity android:name=".Pandan_olahan" />
+        <activity android:name=".Mengkudu_caratanam" />
+        <activity android:name=".Mengkudu_olahan" />
+        <activity android:name=".Lidahbuaya_caratanam" />
+        <activity android:name=".Lidahbuaya_olahan" />
+        <activity android:name=".Kencur_caratanam" />
+        <activity android:name=".Kencur_olahan" />
+        <activity android:name=".Kemangi_caratanam" />
+        <activity android:name=".Kemangi_olahan" />
+        <activity android:name=".Jahe_caratanam" />
+        <activity android:name=".Jahe_olahan" />
+        <activity android:name=".Lengkuas_olahan" />
+        <activity android:name=".Lengkuas_caratanam" />
+        <activity android:name=".Kunyit_olahan" />
+        <activity android:name=".Kunyit_caratanam" />
+        <activity android:name=".Lidahbuaya" />
+        <activity android:name=".Mengkudu" />
+        <activity android:name=".Kemangi" />
+        <activity android:name=".Pandan" />
+        <activity android:name=".Sirih" />
+        <activity android:name=".Serai" />
+        <activity android:name=".Kencur" />
+        <activity android:name=".Jahe" />
+        <activity android:name=".Lengkuas" />
+        <activity android:name=".Kunyit" />
+        <activity android:name=".Temulawak_olahan" />
+        <activity android:name=".Hubungi_kami" />
+        <activity android:name=".Tambah_tanaman" />
+        <activity android:name=".Temulawak_caratanam" />
+        <activity android:name=".Temulawak" />
+        <activity android:name=".Daftar_tanaman" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_home" />
+    </application>
+
+</manifest>
